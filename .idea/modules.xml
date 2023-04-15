@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/capibara-studio.iml" filepath="$PROJECT_DIR$/.idea/capibara-studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Copybara.iml" filepath="$PROJECT_DIR$/.idea/Copybara.iml" />
     </modules>
   </component>
 </project>
