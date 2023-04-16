@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
+import NewAccount from "./components/NewAccount/NewAccount";
 
 function App() {
   return (
     <div className="App">
+      <NewAccount/>
     </div>
   );
 }
