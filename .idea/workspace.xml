@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da0f2f3-2b51-4267-95e4-f918a7efe409" name="Changes" comment="Refactor Front-End part">
-      <change afterPath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.tsx" afterDir="false" />
+    <list default="true" id="4da0f2f3-2b51-4267-95e4-f918a7efe409" name="Changes" comment="Added registration form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Actions/RegistrationActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Actions/RegistrationActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Actions/RegistrationActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.tsx" afterDir="false" />
     </list>
-    <list id="0c7a2cc3-2822-46a1-bfc4-d09d60672e69" name="Changes by staro" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -45,25 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Copybara&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;E:\\Copybara\\server\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Copybara",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "E:\\Copybara\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Copybara\client\src\constants" />
       <recent name="E:\Copybara\client\src\components\NewAccount" />
     </key>
   </component>
@@ -83,7 +81,8 @@
       <workItem from="1681651300207" duration="304000" />
       <workItem from="1681651614196" duration="24000" />
       <workItem from="1681651649169" duration="4650000" />
-      <workItem from="1681656655093" duration="4438000" />
+      <workItem from="1681656655093" duration="5666000" />
+      <workItem from="1681749914989" duration="7056000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Front-End part">
       <created>1681596931378</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681596949384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added registration form">
+      <created>1681663289846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681663289846</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor Front-End part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Front-End part" />
+    <MESSAGE value="Added registration form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added registration form" />
   </component>
 </project>
