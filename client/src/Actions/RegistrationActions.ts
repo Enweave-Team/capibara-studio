@@ -1,10 +1,10 @@
 import axios from "axios";
 
-interface DataType {
-    firstName?: string
-    lastName?: string
-    password: string
-    email: string
+export interface DataType {
+    firstName: string;
+    lastName: string;
+    password: string | number;
+    email: string | number;
 }
 
 

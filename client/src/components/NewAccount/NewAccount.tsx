@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
+import { useForm, SubmitHandler } from "react-hook-form";
 import './NewAccount.scss';
-import {registrationActions} from "../../Actions/RegistrationActions";
+import {DataType, registrationActions} from "../../Actions/RegistrationActions";
+
 
 const NewAccount = () => {
 
@@ -16,7 +18,6 @@ const NewAccount = () => {
             ...info,
             [e.target.name]: e.target.value
         });
-
     }
 
     return (
@@ -26,12 +27,16 @@ const NewAccount = () => {
                 <h1>Create your account</h1>
             </div>
 
-            <form className='form'>
+            <form  className='form' >
                 <div className='initials-form'>
                     <div className='form__content'>
                         <p>First Name</p>
-                        <input onChange={sendInfo} name='firstName' className='initials-form__input' type="text"
-                               placeholder='Enter your first name...'/>
+                        <input
+                            onChange={sendInfo}
+                            name='firstName'
+                            className='initials-form__input'
+                            type="text"
+                            placeholder='Enter your first name...'/>
                     </div>
 
                     <div className='form__content'>
@@ -55,16 +60,20 @@ const NewAccount = () => {
                     </div>
                 </div>
 
-                <div>
-                <input type="checkbox"/>By proceeding, you agree to the <span style={{color: '#000'}}>Terms of Service</span>
-                <button className='form-button' onClick={() => registrationActions(info)}><h3>Create account</h3></button>
+                <div className='form-createAccount'>
+                    <input type="checkbox"/>By proceeding, you agree to the <span style={{color: '#000'}}>Terms of Service</span>
+                    <button className='form-button' onClick={() => registrationActions(info)}><h3>Create account</h3></button>
                 </div>
             </form>
 
             <div className='footer'>
-                <p>Contact</p>
-                <p>Terms of Service</p>
-                <p>Privacy policy</p>
+                <nav className='footer-links'>
+                <a href="" className='footer-links-item'>Contact</a>
+                <div className='footer-dash'></div>
+                <a href="" className='footer-links-item'>Terms of Service</a>
+                <div className='footer-dash'></div>
+                <a href="" className='footer-links-item'>Privacy policy</a>
+                </nav>
             </div>
         </div>
     );
