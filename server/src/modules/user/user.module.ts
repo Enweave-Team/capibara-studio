@@ -2,8 +2,8 @@ import {Module} from "@nestjs/common";
 import {UserController} from "./user.controller";
 import {UserService} from "./user.service";
 import {MongooseModule} from "@nestjs/mongoose";
-import {User, UserSchema} from "../schemas/user.schema";
-import {Order, OrderSchema} from "../schemas/order.schema";
+import {User, UserSchema} from "../../schemas/user.schema";
+import {Order, OrderSchema} from "../../schemas/order.schema";
 
 
 @Module({
@@ -13,6 +13,7 @@ import {Order, OrderSchema} from "../schemas/order.schema";
     ],
     controllers: [UserController],
     providers: [UserService],
+    exports: [UserService]
 })
 
 export class UserModule {}

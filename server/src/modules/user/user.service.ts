@@ -1,10 +1,11 @@
 import {Injectable} from "@nestjs/common";
 import {InjectModel} from "@nestjs/mongoose";
-import {User, UserDocument} from "../schemas/user.schema";
+import {User, UserDocument} from "../../schemas/user.schema";
 import {Model} from "mongoose";
-import {Order, OrderDocument} from "../schemas/order.schema";
-import {CreateUserDto} from "../dto/create-user.dto";
+import {Order, OrderDocument} from "../../schemas/order.schema";
+import {CreateUserDto} from "../../dto/create-user.dto";
 import * as bcrypt from 'bcrypt';
+// import {AppError} from "../../comon/errors";
 
 
 @Injectable()
@@ -15,14 +16,21 @@ export class UserService {
      @InjectModel(Order.name) private orderModel: Model<OrderDocument>) {
     }
 
-    async hashPassword(password: string){
-        return await bcrypt.hash(password,10)
+    async checkUser(email: string) {
+        return this.userModel.findOne({email: email});
+    }
+
+    async hashPassword(password: string) {
+        return await bcrypt.hash(password, 10)
     }
 
     async create(dto: CreateUserDto): Promise<CreateUserDto> {
-        // @ts-ignore
         dto.password = await this.hashPassword(dto.password);
-        await this.userModel.create(dto);
+        const newUser = {
+            email: dto.email,
+            password: dto.password,
+        }
+        await this.userModel.create(newUser);
         return dto
     }
 
@@ -41,5 +49,9 @@ export class UserService {
 
     async getOne() {
 
+    }
+
+    async publicUser(email: string){
+        return this.userModel.findOne({email:email},['email'])
     }
 }
