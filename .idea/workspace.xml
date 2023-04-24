@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4da0f2f3-2b51-4267-95e4-f918a7efe409" name="Changes" comment="Almost fully completed registration page.">
+      <change afterPath="$PROJECT_DIR$/client/src/common/FormErrors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.tsx" afterDir="false" />
+    </list>
+    <list id="75e82953-f4b3-4ac6-b0a8-5cf7dbb3473a" name="Changes by staro" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2OTtPliKNEQhzzsHdGwU73f8Jex" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/NewProject&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Copybara\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Copybara\client\src\constants" />
+      <recent name="E:\Copybara\client\src\components\NewAccount" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4da0f2f3-2b51-4267-95e4-f918a7efe409" name="Changes" comment="" />
+      <created>1681596377751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681596377751</updated>
+      <workItem from="1681596378834" duration="3059000" />
+      <workItem from="1681599799701" duration="671000" />
+      <workItem from="1681645425708" duration="2654000" />
+      <workItem from="1681651191071" duration="51000" />
+      <workItem from="1681651249070" duration="44000" />
+      <workItem from="1681651300207" duration="304000" />
+      <workItem from="1681651614196" duration="24000" />
+      <workItem from="1681651649169" duration="4650000" />
+      <workItem from="1681656655093" duration="5666000" />
+      <workItem from="1681749914989" duration="7744000" />
+      <workItem from="1681917538454" duration="4385000" />
+      <workItem from="1681924003706" duration="1651000" />
+      <workItem from="1681936660691" duration="37000" />
+      <workItem from="1682006957231" duration="3780000" />
+      <workItem from="1682017316740" duration="5635000" />
+    </task>
+    <task id="LOCAL-00001" summary="Refactor Front-End part">
+      <created>1681596931378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681596931378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor Front-End part">
+      <created>1681596949384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681596949384</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added registration form">
+      <created>1681663289846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681663289846</updated>
+    </task>
+    <task id="LOCAL-00004" summary="A little bit нарыгал">
+      <created>1681769185685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681769185686</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Almost fully completed registration page.">
+      <created>1682011934248</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682011934248</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor Front-End part" />
+    <MESSAGE value="Added registration form" />
+    <MESSAGE value="A little bit нарыгал" />
+    <MESSAGE value="Almost fully completed registration page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost fully completed registration page." />
+  </component>
+</project>
