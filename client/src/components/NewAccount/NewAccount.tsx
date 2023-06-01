@@ -4,6 +4,7 @@ import {useForm, SubmitHandler} from "react-hook-form";
 import {DataType, registrationActions} from "../../Actions/RegistrationActions";
 import formErrors from "../../common/FormErrors";
 
+
 const NewAccount = () => {
 
     const [info, setInfo] = useState({
@@ -90,7 +91,6 @@ const NewAccount = () => {
                 </div>
                 <div className='form-createAccount'>
                     <input type="checkbox"/>By proceeding, you agree to the <span style={{color: '#000'}}>Terms of Service</span>
-
                     <div className='form-createAccount-item'>
                         <h3><strong>Have an account? <span style={{color: '#573FF1'}}>Sign in</span></strong></h3>
                         <button

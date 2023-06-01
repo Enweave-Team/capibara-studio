@@ -10,10 +10,30 @@ export interface DataType {
 
 export const registrationActions = async (data: DataType) => {
     try {
-        const response = await axios.post('http://localhost:5000/users/create-user', {email:data.email, password:data.password})
-    }
-    catch (e) {
+        const response = await axios.post('http://localhost:5000/auth/register', {
+            email: data.email,
+            password: data.password
+        })
+    } catch (e) {
         // @ts-ignore
         console.log(e.response.data.message);
     }
+}
+
+export const login = async (data: DataType) => {
+    try {
+        const response = await axios.post("http://localhost:5000/auth/login", {
+            email: data.email,
+            password: data.password
+        });
+        // localStorage.setItem('currentUser', JSON.stringify({
+        //     token: response.data.token ,
+        //     user: response.data.user,
+        // }));
+        console.log(response)
+    } catch (e) {
+        //@ts-ignore
+        console.log(e.response.data.message);
+    }
+
 }

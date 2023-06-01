@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
-import NewAccount from "./components/NewAccount/NewAccount";
+import Navbar from "./components/Navbar/Navbar";
+import Main from "./Pages/Main/Main";
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <NewAccount/>
+        <BrowserRouter>
+            <Navbar />
+        </BrowserRouter>
+        <Main />
     </div>
   );
 }
