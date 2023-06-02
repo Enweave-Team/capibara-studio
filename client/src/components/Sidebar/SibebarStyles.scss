@@ -67,18 +67,23 @@
     }
   }
 }
+.nav-menu-items {
 
-.nav-text {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding: 8px - 8px 16px;
-  list-style: none;
-  height: 60px;
+  border: 1px solid var(--dark-purple);
 
-   a {
-    text-decoration: none;
-    color: black;
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px - 8px 16px;
+    list-style: none;
+    height: 60px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
 }
+
 

@@ -4,27 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da0f2f3-2b51-4267-95e4-f918a7efe409" name="Changes" comment="Almost fully completed registration page. v2">
-      <change afterPath="$PROJECT_DIR$/client/src/Pages/Main/Main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Pages/Main/MainStyles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Login/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Login/LoginsStyles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavbarStyles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Sidebar/SibebarStyles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Sidebar/SidebarData.ts" afterDir="false" />
+    <list default="true" id="4da0f2f3-2b51-4267-95e4-f918a7efe409" name="Changes" comment="Added header and sidebar">
+      <change afterPath="$PROJECT_DIR$/client/src/Pages/Authentication/Authentication.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Pages/Authentication/Authentication.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Actions/RegistrationActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Actions/RegistrationActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/common/FormErrors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/common/FormErrors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/NewAccount/NewAccount.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NewAccount/NewAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/NewAccount/NewAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Sidebar/SibebarStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Sidebar/SibebarStyles.scss" afterDir="false" />
     </list>
     <list id="75e82953-f4b3-4ac6-b0a8-5cf7dbb3473a" name="Changes by staro" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -79,6 +68,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Copybara\client\src\Pages" />
+      <recent name="E:\Copybara\client\src\Pages\Main" />
       <recent name="E:\Copybara\client\src\constants" />
       <recent name="E:\Copybara\client\src\components\NewAccount" />
     </key>
@@ -113,7 +104,9 @@
       <workItem from="1685454358510" duration="2441000" />
       <workItem from="1685462353400" duration="8856000" />
       <workItem from="1685543716723" duration="10768000" />
-      <workItem from="1685623113974" duration="21224000" />
+      <workItem from="1685623113974" duration="21644000" />
+      <workItem from="1685716575542" duration="4624000" />
+      <workItem from="1685724815892" duration="7698000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Front-End part">
       <created>1681596931378</created>
@@ -157,11 +150,29 @@
       <option name="project" value="LOCAL" />
       <updated>1682024353076</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added header and sidebar">
+      <created>1685660153817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685660153817</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor Front-End part" />
@@ -169,6 +180,7 @@
     <MESSAGE value="A little bit нарыгал" />
     <MESSAGE value="Almost fully completed registration page." />
     <MESSAGE value="Almost fully completed registration page. v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost fully completed registration page. v2" />
+    <MESSAGE value="Added header and sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added header and sidebar" />
   </component>
 </project>

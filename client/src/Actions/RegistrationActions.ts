@@ -1,8 +1,7 @@
 import axios from "axios";
 
 export interface DataType {
-    firstName: string;
-    lastName: string;
+    nameAcc: string;
     password: string | number;
     email: string | number;
 }
